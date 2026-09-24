@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; --fg: #1f2328; --bg: #ffffff; --muted: #59636e; --link: #0969da; }
+@media (prefers-color-scheme: dark) { :root { --fg: #e6edf3; --bg: #0d1117; --muted: #9198a1; --link: #4493f8; } }
+body { margin: 0; padding: 3rem 1rem; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 40rem; margin: 0 auto; }
+h1 { font-size: 1.6rem; margin-bottom: 0.5rem; }
+a { color: var(--link); }
+footer { margin-top: 3rem; color: var(--muted); font-size: 0.9rem; }
